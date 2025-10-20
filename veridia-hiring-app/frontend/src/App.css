@@ -1,0 +1,241 @@
+/* ✅ Veridia Hiring App - Custom Styling */
+
+/* ---------- Layout ---------- */
+body {
+  background-color: #f8fafc;
+  font-family: "Inter", "Poppins", sans-serif;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+/* ---------- Card ---------- */
+.card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  max-width: 450px;
+  width: 100%;
+  margin: 2rem auto;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-success {
+  background-color: #16a34a;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #15803d;
+}
+
+.btn-danger {
+  background-color: #dc2626;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #b91c1c;
+}
+
+/* ---------- Input Fields ---------- */
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.65rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  outline: none;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px #bfdbfe;
+}
+
+/* ---------- Tables (Admin Dashboard) ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+th,
+td {
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: #eff6ff;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+tr:hover {
+  background-color: #f1f5f9;
+}
+
+/* ---------- Status Badges ---------- */
+.status {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+.status.pending {
+  background-color: #f59e0b;
+}
+
+.status.shortlisted {
+  background-color: #16a34a;
+}
+
+.status.rejected {
+  background-color: #dc2626;
+}
+
+.status.hired {
+  background-color: #2563eb;
+}
+
+/* ---------- Messages ---------- */
+.message {
+  text-align: center;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.message-success {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.message-error {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  color: #64748b;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.9rem;
+}
+
+/* ---------- Application Form ---------- */
+.application-form-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 2rem;
+}
+
+/* ✅ Center inputs neatly */
+.application-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.application-form input,
+.application-form select,
+.application-form textarea {
+  width: 100%;              /* reduced width for better centering */
+  max-width: 700px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5e1;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease;
+}
+
+.application-form input:focus,
+.application-form select:focus,
+.application-form textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px #bfdbfe;
+}
+
+/* ✅ Center submit button */
+.submit-button {
+  width: 80%;
+  max-width: 500px;
+  padding: 0.85rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #2563eb;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #1d4ed8;
+}
+
+/* ---------- Label ---------- */
+.label-bold {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+}

@@ -1,0 +1,73 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #f5f7fa, #e4ebf5); /* soft corporate gradient */
+  color: #2c3e50; /* dark navy text */
+}
+
+/* ===== MAIN TITLE ===== */
+h1 {
+  color: #004080; /* corporate navy blue */
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+/* ===== SUBTITLE ===== */
+p {
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 700px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* ===== BUTTON ===== */
+button {
+  background: linear-gradient(90deg, #004080, #007acc); /* professional HR blue gradient */
+  color: #fff;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 64, 128, 0.2);
+}
+
+button:hover {
+  background: linear-gradient(90deg, #0059b3, #0080ff);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 64, 128, 0.3);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  button {
+    padding: 10px 25px;
+  }
+}
