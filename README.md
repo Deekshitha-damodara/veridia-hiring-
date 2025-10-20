@@ -97,11 +97,6 @@ node server.js
 5️⃣ Run the frontend
 npm start
 
-## 📸 Screenshots (Add yours here)
-🏠 Home / Login Page
-📝 Application Form
-🧑‍💼 Admin Dashboard
-
 ## 🔐 Authentication Flow
 User registers → Data stored in MongoDB (password hashed)
 Login → JWT token generated
